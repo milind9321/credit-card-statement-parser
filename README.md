@@ -46,24 +46,4 @@ python parser.py sample_statements/sample_hdfc_statement.pdf
 }
 
 
-Notes
-
-The included PDF is a dummy credit card statement created purely for testing purposes
-
-No real customer or financial data is used in this project
-
-The parser currently supports text-based PDFs reliably
-
-OCR support for scanned PDFs is intentionally disabled to avoid OS-level dependencies on Windows
-
-The design allows OCR (Tesseract + Poppler) to be enabled easily in production environments if required
-
-Future Improvements
-
-Enable OCR support for scanned or image-based credit card statements
-
-Add issuer-specific parsing logic for improved accuracy
-
-Improve date and currency normalization across different formats
-
 Add automated tests and validation rules
